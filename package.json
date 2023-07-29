@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp_management",
+  "version": "1.0.0",
+  "description": "Software para la gestión de una empresa de adiestramiento. Correspondiente a: Final Drilling Modulo 7 - 0023",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootcamp",
+    "node.js",
+    "pg",
+    "sequelize"
+  ],
+  "author": "Orlando Altamiranda",
+  "license": "ISC"
+}

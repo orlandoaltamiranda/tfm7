@@ -1,4 +1,7 @@
+const dbConfig = require("../config/db.config")
+
 const db = {
+  dbConfig: dbConfig,
   users: require("./user.model"),
   bootcamps: require("./bootcamp.model")
 }
@@ -14,3 +17,5 @@ db.bootcamps.belongsToMany(db.users, {
   as: "bootcamps",
   foreignKey: "bootcamp_id"
 })
+
+module.exports = db

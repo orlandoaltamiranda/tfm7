@@ -28,7 +28,7 @@ const User = db.define("users", {
       msg: 'El email necesita ser unico'
     },
     isEmail: true
-  },
+  }
 
 })
 

@@ -13,5 +13,10 @@
     "sequelize"
   ],
   "author": "Orlando Altamiranda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  }
 }

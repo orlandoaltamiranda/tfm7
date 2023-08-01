@@ -27,7 +27,9 @@ const User = db.define("users", {
     unique: {
       msg: 'El email necesita ser unico'
     },
+    validate: {
     isEmail: true
+    }
   }
 
 })

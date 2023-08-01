@@ -23,7 +23,7 @@ const Bootcamp =db.define("bootcamps" , {
     allowNull: false,
     validate: {
       min: 5,
-      max: 10
+      max: 20
     }
   },
 
